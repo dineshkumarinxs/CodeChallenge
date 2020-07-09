@@ -11,6 +11,6 @@ def divisib(num):
             numr.append(i)            
     return numr   #Return the output
 
-
+#Print the output
 print("The number",num, "is divisible by following numbers from 1 till 10")
 print(divisib(num))

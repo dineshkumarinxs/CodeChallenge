@@ -1,38 +1,29 @@
-Prime Numbers - Week 1 Challenge
+Find numbers Divisible from 1 to 10 - Week 1 Challenge
 
-A prime number is a number that is only divisible by 1 and by itself. This means that for each of the numbers from 2 to that number, the number cannot be divided without a remainder.
+For any given number N, find if the number is divisible by 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10. Find all the possible numbers divisible and print them.
 
-For example, 9 is not a prime number because it can be divided by 3 without a remainder. But 7 is a prime number because it cannot be divided by 2, 3, 4, 5, or 6 without a remainder. For further explanation, click here (Links to an external site.).
-Write an application that will show the number and indicate whether or not it is prime. There are two ways that you can achieve this.
+We can say number is divisible if the remainder is 0. For example number 81 is divisble by 1, 3, and 9
 
-This solution can be addressed in many programming languages, we have used Python here with two methods.
-
-Method 1: The user will have to input a number, and you will display that number. You will check if that number is prime and indicate that to the user.
-For example, if the user typed 10, it would display the following output: 10 is not a prime number
-
-Method 2: Generate all the prime numbers till N given by the user.
+The solution can be addressed in many programming languages, we have used Python to find solve this.
 
 How to run the program?
 
 1. Open command prompt and navigate to the 
 
-C:\workspace\Primepy>python primechkprint.py
+C:\workspace\Primepy>python divisible.py
 
 2. The Program will execute and prompt user to enter a number, once the number is entered the results will be published as shown below
 
-Enter the number to check: 11
-The given number 11 is a prime number
-The prime numbers till 11 are : [2, 3, 5, 7, 11]
+Enter the number you like to check: 56
+The number 56 is divisible by following numbers from 1 till 10
+[1, 2, 4, 7, 8]
 
 3. To run the unit test case program run the below command
 
-C:\workspace\Primepy>python -m unittest test_primechkprint.py
+C:\workspace\Primepy>python -m unittest test_divisible.py
 
 The output will be displayed as shown below
 
-Enter the number to check: 5
-The given number 5 is a prime number
-The prime numbers till 5 are : [2, 3, 5]
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.001s

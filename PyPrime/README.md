@@ -2,8 +2,7 @@ Prime Numbers - Week 1 Challenge
 
 A prime number is a number that is only divisible by 1 and by itself. This means that for each of the numbers from 2 to that number, the number cannot be divided without a remainder.
 
-For example, 9 is not a prime number because it can be divided by 3 without a remainder. But 7 is a prime number because it cannot be divided by 2, 3, 4, 5, or 6 without a remainder. For further explanation, click here (Links to an external site.).
-Write an application that will show the number and indicate whether or not it is prime. There are two ways that you can achieve this.
+For example, 9 is not a prime number because it can be divided by 3 without a remainder. But 7 is a prime number because it cannot be divided by 2, 3, 4, 5, or 6 without a remainder.
 
 This solution can be addressed in many programming languages, we have used Python here with two methods.
 
